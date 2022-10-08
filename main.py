@@ -1,2 +1,8 @@
-print('Hello world')
-print('Have a nice day!')
+# На 1000 г. мяса
+#
+# Поваренная соль 15 г.
+
+
+# m - масса куска мяса в граммах
+def calc_salt(m):
+    return int(m * 15 / 1000)
