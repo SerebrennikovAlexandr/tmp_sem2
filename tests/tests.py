@@ -2,7 +2,7 @@ import unittest
 import sys, os
 
 sys.path.append(os.getcwd())
-from tmp_sem2.main import *
+from main import *
 
 
 class TestCalc(unittest.TestCase):
